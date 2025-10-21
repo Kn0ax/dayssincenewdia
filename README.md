@@ -1,31 +1,25 @@
-# Days since last Rust Minecraft server
+# Days since last Dia like thing
 
 Funny little countdown :)
 
 I'll stop maintaining this site once either of the following happen:
-- One of them achieves full vanilla reimplementation
+- One of them achieves real ~agi~ usable agent that we can use daily 
 - I get bored of updating
 
-Who knows which one will happen first! (LOL)
+xdd
 
 
 ### Maintenance
 
-Please create an issue for (or PR) any new servers!
+Please create an issue for (or PR) any new ~shitty~ ai browsers !
 
 Required info:
 - Name
-- URL (of source preferably, but documentation also works)
-- Publish date (including basic proof, e.g. Reddit post)
+- URL (of source preferably, but news as a source also works)
+- Publish date 
 
-Note: I am aware I am missing a few servers. This is because I could not find a
-specific date when they were first "announced" to the world.
-
-Here are some examples, although I am aware of more. Open an issue if you find
-proof of them being announced!
-- Hematite @ https://github.com/PistonDevelopers/hematite_server
-- Quartz @ https://github.com/Rusty-Quartz/Quartz
+Note: I’m aware that I’m missing a few `AI browsers`. This is because I couldn’t find ; they’re just yet another `chromium fork`  / a specific date when they were first “announced” to the world.
 
 ### Disclaimer
 
-No hate towards anyone :) It's always great to see a new Minecraft server in progress. I'm just poking a little fun at how many incomplete Rust implementations there are.
+No hate towards anyone :)
