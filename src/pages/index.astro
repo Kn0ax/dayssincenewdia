@@ -5,18 +5,19 @@ import Timeline from "../components/Timeline.astro";
 
 <!doctype html>
 <html lang="en">
-	<Meta title="Days since last Rust Minecraft server">
-		<meta name="description" content="Days since the last release of a Minecraft server software written in Rust.">
+	<Meta title="Days since new Dia alternative/clone/killer">
+		<meta name="description" content="Days since the new Dia alternative/clone/killer.">
 	</Meta>
 
 	<body>
 		<!-- inline HTML. sue me. -->
-		<p class="corner" style="left: 16px;"><a target="_blank" rel="noreferrer" href="https://github.com/GoldenStack/dayssincelastrustmcserver">GitHub</a></p>
+		<p class="corner" style="left: 16px;"><a target="_blank" rel="noreferrer" href="https://github.com/kn0ax/dayssincenewdia">GitHub</a></p>
 
-		<h3>It has been</h3><br />
-		<h1 id="days-since">_</h1><br />
-		<h3 id="time-since">days</h3><h3>&nbsp;since the last release of a</h3><br />
-		<h3>Minecraft server software written in Rust.</h3><br /><br />
+
+	<h3>It has been</h3><br />
+	<h1 id="days-since">_</h1><br />
+	<h3 id="time-since">days</h3><h3>&nbsp;since the last "<span style="text-decoration: underline;">The AI Browser Dia</span>".</h3><br />
+	<h3><span id="animated-word">alternative</span> was released.</h3><br /><br />
 
 		<h4 id="server-link">________</h4>
 		<h4>was released</h4>
@@ -30,69 +31,61 @@ import Timeline from "../components/Timeline.astro";
 		<br>
 
 		<!-- inline HTML. sue me. -->
-		<p class="corner" style="right: 16px;">made by <a target="_blank" rel="noreferrer" href="https://goldenstack.net/">golden</a></p>
+		<p class="corner" style="right: 16px;">forked by <a target="_blank" rel="noreferrer" href="https://kn0ax.com/">Kn0ax</a> from <a target="_blank" rel="noreferrer" href="https://github.com/GoldenStack/dayssincelastrustmcserver/">GoldenStack</a></p>
+		
+
 	</body>
 </html>
 
 <script>
-	// Manually sorted - older servers go first.
-	// Feel free to retroactively add servers.
+	// Manually sorted - older products go first.
+	// Feel free to retroactively add products.
 
 	const servers = [
 		{
-			name: "Feather",
-			url: "https://github.com/feather-rs/feather",
-			date: new Date("2019-09-01") // https://github.com/feather-rs/feather/releases/tag/v0.4.0
+			name: "Arc Search (iOS) lmao",
+			url: "https://internetprotocol.co/web/2024/02/06/the-browser-company-released-arc-search-for-ios/",
+			date: new Date("2024-01-29")
 		},
 		{
-			name: "MCHPRS",
-			url: "https://github.com/MCHPR/MCHPRS",
-			date: new Date("2020-06-20") // StackDoubleFlow recommended date
+			name: "Dia",
+			url: "https://www.youtube.com/watch?v=C25g53PC5QQ",
+			date: new Date("2024-12-20")
 		},
 		{
-			name: "Bamboo",
-			url: "https://github.com/macmv/bamboo",
-			date: new Date("2022-01-27") // https://www.reddit.com/r/rust_gamedev/comments/sdumpo/made_a_minecraft_server_in_rust_which_can_support/
+			name: "Google Chrome — Gemini in Chrome",
+			url: "https://support.google.com/gemini/answer/16283624?hl=en",
+			date: new Date("2025-01-30")
 		},
 		{
-			name: "Valence",
-			url: "https://github.com/valence-rs/valence",
-			date: new Date("2022-09-04") // https://www.youtube.com/watch?v=6P072lKE01s
+			name: "Genspark AI Browser",
+			url: "https://blog.genspark.ai/blog/genspark_ai_browser",
+			date: new Date("2025-06-10")
 		},
 		{
-			name: "Hyperion",
-			url: "https://github.com/andrewgazelka/hyperion",
-			date: new Date("2024-03-15") // Andrew recommended date
+			name: "Perplexity Comet",
+			url: "https://techcrunch.com/2025/07/09/perplexity-launches-comet-an-ai-powered-web-browser/",
+			date: new Date("2025-07-09")
 		},
 		{
-			name: "Pumpkin",
-			url: "https://github.com/Snowiiii/Pumpkin",
-			date: new Date("2024-07-31") // https://www.reddit.com/r/rust/comments/1egx979/minecraft_server_written_in_rust/
+			name: "Microsoft Edge — Copilot Mode",
+			url: "https://www.microsoft.com/en-us/edge/ai-powered/copilot-mode",
+			date: new Date("2025-07-28")
 		},
 		{
-			name: "FerrumC",
-			url: "https://github.com/sweattypalms/ferrumc",
-			date: new Date("2024-09-09") // https://www.reddit.com/r/rust/comments/1fcvyjb/ferrumc_an_actually_fast_minecraft_server/
+			name: "Fellou CE (Agentic AI Browser)",
+			url: "https://www.businesswire.com/news/home/20250902953779/en/Worlds-First-Spatial-Agentic-Browser-That-Works-While-You-RestFellou-CE-Launches",
+			date: new Date("2025-09-02")
 		},
 		{
-			name: "PKMC",
-			url: "https://github.com/Vulae/pkmc",
-			date: new Date("2025-01-21") // https://www.reddit.com/r/rust/comments/1i6lqxe/media_simple_rust_minecraft_server/
+			name: "Opera Neon (agentic)",
+			url: "https://press.opera.com/2025/09/30/opera-neon-ai-agentic-browser-release/",
+			date: new Date("2025-09-30")
 		},
 		{
-			name: "Oxide",
-			url: "https://github.com/T-x-T/Oxide",
-			date: new Date("2025-03-27") // https://www.youtube.com/watch?v=W97NohIgWfU (first video in series where joining is implemented; TheTxt said this was fine)
-		},
-		{
-			name: "KittyMC",
-			url: "https://github.com/Kek5chen/kittymc",
-			date: new Date("2025-03-29") // Announced on the Rust discord server https://discord.com/channels/273534239310479360/1355623526127636560/1355623526127636560
-		},
-		{
-			name: "PicoLimbo",
-			url: "https://github.com/Quozul/PicoLimbo",
-			date: new Date("2025-05-14") // Announced on the Rust subreddit https://www.reddit.com/r/rust/comments/1kmhxee/i_wrote_a_lightweight_minecraft_server_in_rust/
+			name: "OpenAI ChatGPT Atlas",
+			url: "https://openai.com/index/introducing-chatgpt-atlas/",
+			date: new Date("2025-10-21")
 		}
 	];
 
@@ -164,6 +157,33 @@ import Timeline from "../components/Timeline.astro";
 	render();
 
 	servers.toReversed().forEach(server => cls("timeline").appendChild(renderTimeline(server)));
+
+	// Animated word cycling
+	const words = ["alternative", "killer", "clone", "competitor", "rival"];
+	let currentIndex = 0;
+	const animatedWord = id("animated-word");
+
+	function cycleWord() {
+		// Add exit animation
+		animatedWord.classList.add("word-exit");
+		
+		setTimeout(() => {
+			// Change word
+			currentIndex = (currentIndex + 1) % words.length;
+			animatedWord.textContent = words[currentIndex];
+			
+			// Remove exit and add enter animation
+			animatedWord.classList.remove("word-exit");
+			animatedWord.classList.add("word-enter");
+			
+			setTimeout(() => {
+				animatedWord.classList.remove("word-enter");
+			}, 500);
+		}, 500);
+	}
+
+	// Cycle words every 2.5 seconds
+	setInterval(cycleWord, 2500);
 </script>
 
 <style>
@@ -216,5 +236,42 @@ import Timeline from "../components/Timeline.astro";
 
 	.corner a {
 		text-decoration: none;
+	}
+
+	#animated-word {
+		display: inline-block;
+		position: relative;
+		min-width: 150px;
+		text-align: center;
+	}
+
+	.word-exit {
+		animation: slideDown 0.5s ease-in-out forwards;
+	}
+
+	.word-enter {
+		animation: slideUp 0.5s ease-in-out forwards;
+	}
+
+	@keyframes slideDown {
+		0% {
+			transform: translateY(0);
+			opacity: 1;
+		}
+		100% {
+			transform: translateY(30px);
+			opacity: 0;
+		}
+	}
+
+	@keyframes slideUp {
+		0% {
+			transform: translateY(-30px);
+			opacity: 0;
+		}
+		100% {
+			transform: translateY(0);
+			opacity: 1;
+		}
 	}
 </style>
