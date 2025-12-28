@@ -1,5 +1,7 @@
 # Days since last Dia like thing
 
+https://dayssincelastdia.lol
+
 Funny little countdown :)
 
 I'll stop maintaining this site once either of the following happen:
